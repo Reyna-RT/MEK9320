@@ -1,0 +1,28 @@
+! give bathimetry option/readfromfile/
+readfromfile
+! give depthfilename/  h/
+h
+!Give number of grid points/ 260/
+63
+! give equation type/LBouss/
+LSW
+!Employ discrete correction term
+no
+!give initial condition/readfromfile/
+readfromfile
+!give eta-data name of file/
+eta.in
+! give u1-data
+stop
+! Prop. towards decreasing x/ja/
+no
+!Number of cycles
+252
+!give time interval
+-1
+!give reduction factor for dt/dx
+0.5
+!give timsteps in interval
+2
+!times for printing
+1 4:250;5
